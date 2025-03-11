@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  }
+  */
+  background: url(./assets/bg-mobile.jpg) no-repeat top center / cover;
+}
+body * {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+}
+#container {
+  border: 1px red solid;
+  width: 360px; /*largura*/
+  margin: auto;
+}
+#profile img {
+  cursor: pointer;
+  width: 112px;
+  display: block;
+  margin: auto;
+}
+#profile {
+  text-align: center;
+  line-height: 24px;
+}
