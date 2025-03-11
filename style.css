@@ -29,10 +29,21 @@ body * {
 #profile img {
   cursor: pointer;
   width: 112px;
+  height: 112px;
   display: block;
   margin: auto;
 }
+
+#profile p {
+  font-size: 18;
+  font-weight: 900;
+}
+
 #profile {
   text-align: center;
   line-height: 24px;
+}
+#list {
+  font-weight: 900;
+  font-size: 14;
 }
